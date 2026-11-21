@@ -1,0 +1,35 @@
+backend/.env
+backend/node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Backend private data
+backend/jobs/
+backend/logs/
+backend/*.log
+
+# Dependencies and build output
+node_modules/
+frontend/android/.gradle/
+frontend/android/local.properties
+frontend/android/app/build/
+frontend/android/build/
+frontend/android/captures/
+frontend/android/.idea/
+
+# Android signing keys
+*.jks
+*.keystore
+
+# Temporary files
+*.log
+.DS_Store
+
+# Local source backups
+*.backup
+*.before-*
